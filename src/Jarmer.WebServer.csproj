@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>0.3.0</Version>
+        <Authors>Ruben Labruyere</Authors>
+        <Company>Ruben Labruyere</Company>
+        <PackageId>Jarmer-WebServer</PackageId>
+        <Description>
+            Jarmer WebServer is an easy to use light-weight webserver for dotnet applications
+        </Description>
+        <RepositoryUrl>https://github.com/TheBoneJarmer/jarmer-webserver.git</RepositoryUrl>
+        <PackageTags>jarmer,webserver,web-server,web,advancedsockets</PackageTags>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AdvancedSockets" Version="1.9.0" />
+        <!--<ProjectReference Include="..\..\advancedsockets\src\AdvancedSockets\AdvancedSockets.csproj" />-->
+    </ItemGroup>
+
+</Project>
